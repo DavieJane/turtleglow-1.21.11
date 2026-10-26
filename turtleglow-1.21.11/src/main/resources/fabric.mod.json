@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "turtleglow",
+  "version": "${version}",
+  "name": "Turtle Glow",
+  "description": "Players under the Turtle Master effect glow in a configurable color. Controlled with /turtleglow.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "com.example.turtleglow.TurtleGlow" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
